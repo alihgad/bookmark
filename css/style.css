@@ -1,0 +1,103 @@
+::selection{
+    background-color: #fec260;
+}
+
+input:focus{
+    box-shadow: none !important;
+    outline: none !important;
+
+}
+
+body{
+    background-color: #f7ecde !important;
+}
+
+
+
+.breeserf{
+    font-family: 'Bree Serif', serif;
+
+}
+
+.caption{
+    font-family: 'PT Sans Caption', sans-serif;
+
+}
+
+
+
+
+h1{
+font-family: Pacifico ;
+}
+
+h1::after {
+    content: "";
+    background-color: #fec260;
+    height: 20px;
+    width: 105%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1 ;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+h1:hover::after {
+    height: 70%;
+    
+    
+
+}
+
+.form{
+    border-block: dotted black 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form h2 {
+    font-family: Righteous;
+    background: -webkit-linear-gradient(right, yellow, green    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form small{
+    font-size: 14px;
+
+}
+
+.form .submit{
+    background-color: #d1512d;
+}
+
+.form .submit:hover{
+background-color: #bb4120;
+}
+
+.submit:active{
+    background-color: #d1512d !important;
+    border-color: #d1512d !important;
+}
+
+
+.box {
+    width: 35%;
+    top: 50vh;
+}
+
+.box .circle{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.close{
+    cursor: pointer;
+}
+
