@@ -129,7 +129,7 @@
     function search(){
         var founded = []
         for (let i = 0; i < bookmarks.length; i++) {
-            if (bookmarks[i].name.includes(document.getElementById("search").value)){
+            if (bookmarks[i].name.toLowerCase().includes(document.getElementById("search").value.toLowerCase())){
                 console.log("hi");
                 founded.push(bookmarks[i])
             }

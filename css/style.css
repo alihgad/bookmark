@@ -49,8 +49,6 @@ h1::after {
 
 h1:hover::after {
     height: 70%;
-    
-    
 
 }
 
@@ -101,3 +99,9 @@ background-color: #bb4120;
     cursor: pointer;
 }
 
+
+@media screen and (min-width : 600px) {
+    .container{
+        width: 75% !important;
+    }
+}
